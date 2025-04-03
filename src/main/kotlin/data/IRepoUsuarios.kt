@@ -8,5 +8,5 @@ interface IRepoUsuarios {
     fun obtenerTodos(): List<Usuario>
     fun obtener(perfil: Perfil): List<Usuario>
     fun cambiarClave(usuario: Usuario, nuevaClave: String): Boolean
-
 }
+
